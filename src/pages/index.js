@@ -27,7 +27,7 @@ class Index extends React.Component {
   render() {
     return (
       <Layout>
-        <Helmet title="iPhone & Android App Design & Development Company | FSA" />
+        <Helmet title="Productivity and entertainment – Free Simple Apps" />
 
         <Header />
 
@@ -35,6 +35,9 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
+
+<!--
+
           <section id="about" className="main">
             <div className="spotlight">
               <div className="content">
@@ -67,52 +70,25 @@ class Index extends React.Component {
             </div>
           </section>
 
+-->
+
           <section id="services" className="main special">
             <header className="major">
-              <h2>Our specialty: mobile products</h2>
+              <h2>Our passion: making life easier</h2>
             </header>
             <ul className="features">
               <li>
                 <span className="icon major style1 fa-code" />
-                <h3>Product Strategy</h3>
+                <h3>Productivity</h3>
                 <p>
-                  Think of us like your senior product team you never thought you could afford. We're a bunch of
-                  strategists, UX designers, coders and product managers who bring hands on expertise based on years and
-                  years of experience in building, launching and growing mobile products. We always focus on the value
-                  for the user your product needs to create and the risks that your MVP needs to mitigate. We work lean
-                  and push for real data instead of guesses.
+                  Personal and Team productivity is our goal. We create apps and services solving everyday difficulties which annoying you as mosquito.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy" />
-                <h3>UX & UI Design</h3>
+                <h3>Entertainment</h3>
                 <p>
-                  We try to design products that solve specific needs for the users. That means understanding the users
-                  first and building empathy before anything else. Our UX & UI designs work closely with you to go from
-                  understanding the experiences we need to create for the users, to building the wireframes, prototyping
-                  and doing a remarkable user interface. The visible UI design is just the tip of a deep iceberg, where
-                  the real value sits.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond" />
-                <h3>Native App Development</h3>
-                <p>
-                  To build native means to use all the capabilities of the mobile devices. It means not to compromise on
-                  experience you create for the user. And eventually means a solid foundation for scaling up and turning
-                  a mobile product into a real business. We use Swift for iOS and Java for Android, with a sheer focus
-                  on performance and clean code.
-                </p>
-              </li>
-              <li>
-                <span className="icon major style5 fa-diamond" />
-                <h3>Back-end and Web Development</h3>
-                <p>
-                  Our focus to build full-stack mobile products meant hiring experienced backend and web developers to
-                  complete the rest of the product team. And that paid up a lot, as now we can have integrated teams in
-                  house, covering all the components of your product, from front-end to back-end, from design to product
-                  management. And you don't really know what difference that makes in delivering projects in time and
-                  budget until you've done it.
+                  We enjoy working, but we also need to rest. We think we can spend our free time efficiently and use every spare minute more pleasantly. Moreover, we believe that everyday routine can be more comfortable with perfectly created apps and tools.
                 </p>
               </li>
             </ul>
@@ -126,6 +102,8 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
+
+<!--
 
           <section id="projects" className="main special">
             <header className="major">
@@ -202,6 +180,9 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
+
+-->
+
         </div>
       </Layout>
     )

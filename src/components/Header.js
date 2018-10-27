@@ -8,7 +8,7 @@ const Header = props => (
       <img src={logo} alt="" />
     </span>
     <h1>Free Simple Apps</h1>
-    <p>We develop mobile apps that delight your users and grow your business.</p>
+    <p>We make apps for easy, cheerful and healthy life.</p>
   </header>
 )
 
