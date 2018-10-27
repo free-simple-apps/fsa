@@ -81,7 +81,7 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-code" />
                 <h3>Productivity</h3>
                 <p>
-                  Personal and Team productivity is our goal. We create apps and services solving everyday difficulties which annoying you as mosquito.
+                  Personal and Team productivity is our goal. We create apps and services solving everyday difficulties that annoy you like mosquitoes.
                 </p>
               </li>
               <li>
