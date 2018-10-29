@@ -35,9 +35,7 @@ class Index extends React.Component {
         <Nav sticky={this.state.stickyNav} />
 
         <div id="main">
-
-<!--
-
+          {/*
           <section id="about" className="main">
             <div className="spotlight">
               <div className="content">
@@ -69,8 +67,7 @@ class Index extends React.Component {
               </span>
             </div>
           </section>
-
--->
+          */}
 
           <section id="services" className="main special">
             <header className="major">
@@ -81,30 +78,23 @@ class Index extends React.Component {
                 <span className="icon major style1 fa-code" />
                 <h3>Productivity</h3>
                 <p>
-                  Personal and Team productivity is our goal. We create apps and services solving everyday difficulties that annoy you like mosquitoes.
+                  Personal and Team productivity is our goal. We create apps and services solving everyday difficulties
+                  that annoy you like mosquitoes.
                 </p>
               </li>
               <li>
                 <span className="icon major style3 fa-copy" />
                 <h3>Entertainment</h3>
                 <p>
-                  We enjoy working, but we also need to rest. We think we can spend our free time efficiently and use every spare minute more pleasantly. Moreover, we believe that everyday routine can be more comfortable with perfectly created apps and tools.
+                  We enjoy working, but we also need to rest. We think we can spend our free time efficiently and use
+                  every spare minute more pleasantly. Moreover, we believe that everyday routine can be more comfortable
+                  with perfectly created apps and tools.
                 </p>
               </li>
             </ul>
-            <footer className="major">
-              <ul className="actions">
-                <li>
-                  <Link to="/generic" className="button">
-                    Learn More
-                  </Link>
-                </li>
-              </ul>
-            </footer>
           </section>
 
-<!--
-
+          {/*
           <section id="projects" className="main special">
             <header className="major">
               <h2>Previous Mobile Projects</h2>
@@ -180,9 +170,7 @@ class Index extends React.Component {
               </ul>
             </footer>
           </section>
-
--->
-
+          */}
         </div>
       </Layout>
     )
