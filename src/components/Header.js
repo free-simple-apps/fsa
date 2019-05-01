@@ -8,7 +8,7 @@ const Header = props => (
       <img src={logo} alt="" />
     </span>
     <h1>Free Simple Apps</h1>
-//    <p>We make apps for easy, cheerful and healthy life.</p>
+    <p>We make apps for easy, cheerful and healthy life.</p>
     <p>
       <a href="https://play.google.com/store/apps/developer?id=Free+Simple+Apps">Find our apps in Google Play</a>
     </p>
