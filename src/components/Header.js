@@ -9,7 +9,9 @@ const Header = props => (
     </span>
     <h1>Free Simple Apps</h1>
     <p>We make apps for easy, cheerful and healthy life.</p>
-    <p>We make apps for easy, cheerful and healthy life.</p>
+    <p>
+      <a href="#">Find our apps in Google Play</a>
+    </p>
   </header>
 )
 
