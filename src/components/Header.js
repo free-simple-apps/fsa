@@ -8,9 +8,11 @@ const Header = props => (
       <img src={logo} alt="" />
     </span>
     <h1>Free Simple Apps</h1>
-    <p style="margin-bottom:2px;">We make apps for easy, cheerful and healthy life.</p>
+    <p style={{ marginBottom: '2px' }}>We make apps for easy, cheerful and healthy life.</p>
     <p>
-      <a href="https://play.google.com/store/apps/developer?id=Free+Simple+Apps" style="font-weight:bold">Find our apps in Google Play.</a>
+      <a href="https://play.google.com/store/apps/developer?id=Free+Simple+Apps" style={{ fontWeight: 'bold' }}>
+        Find our apps in Google Play.
+      </a>
     </p>
   </header>
 )
