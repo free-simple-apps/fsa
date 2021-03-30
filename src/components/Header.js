@@ -14,6 +14,13 @@ const Header = props => (
         Find our apps in Google Play.
       </a>
     </p>
+    <p>
+      Try our handy and
+      <a href="https://1daytodo.com/to-do/" style={{ fontWeight: 'bold' }}>
+        simple to-do list
+      </a>
+      for Android, iOS and any browser.
+    </p>
   </header>
 )
 

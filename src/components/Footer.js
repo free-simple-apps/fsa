@@ -37,7 +37,7 @@ const Footer = props => (
         </li>
       </ul>
     </section>
-    <p className="copyright">&copy; 2018 Free Simple Apps. All rights reserved.</p>
+    <p className="copyright">&copy; 2021 Free Simple Apps. All rights reserved.</p>
   </footer>
 )
 
