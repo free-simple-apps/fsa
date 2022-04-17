@@ -10,9 +10,16 @@ const Header = props => (
     <h1>Free Simple Apps</h1>
     <p style={{ marginBottom: '2px' }}>We make apps for easy, cheerful and healthy life.</p>
     <p>
-      <a href="https://play.google.com/store/apps/developer?id=Free+Simple+Apps" style={{ fontWeight: 'bold' }}>
+      <a href="https://play.google.com/store/apps/developer?id=FSA+–+Simple+Apps" style={{ fontWeight: 'bold' }}>
         Find our apps in Google Play.
       </a>
+    </p>
+    <p>
+      Lightweight and simple Photo to PDF converter, find it here:{' '}
+      <a href="https://photo2pdf.me/" style={{ fontWeight: 'bold' }}>
+        https://photo2pdf.me
+      </a>
+      {' '}. Millions of happy users.
     </p>
     <p>
       Try our handy and{' '}
