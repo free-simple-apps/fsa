@@ -15,11 +15,15 @@ const Header = props => (
       </a>
     </p>
     <p>
-      Lightweight and simple Photo to PDF converter, find it here:{' '}
-      <a href="https://photo2pdf.me/" style={{ fontWeight: 'bold' }}>
+      Lightweight and {' '}
+      <a href="https://photo2pdf.me/">
+        simple Photo to PDF converter
+      </a>
+      {' '}, find it here:{' '}
+      <a href="https://photo2pdf.me/">
         https://photo2pdf.me
       </a>
-      {' '}. Millions of happy users.
+      {' '}. <br>Hundreds of thousands of users from all over the world use our PDF converters every day.
     </p>
     <p>
       Try our handy and{' '}
