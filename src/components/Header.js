@@ -23,7 +23,7 @@ const Header = props => (
       <a href="https://photo2pdf.me/">
         https://photo2pdf.me
       </a>
-      {' '}. <br>Hundreds of thousands of users from all over the world use our PDF converters every day.
+      {' '}. <br/>Hundreds of thousands of users from all over the world use our PDF converters every day.
     </p>
     <p>
       Try our handy and{' '}
